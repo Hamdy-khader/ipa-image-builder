@@ -2,13 +2,13 @@
 
 - create_ipa_image.sh
 
-The script will build IPA images (.initramfs, .kernel) from base image CentOS7 then install MOFED and ironic ptthon agent
+The script will build IPA images (ironic-deploy.initramfs, ironic-deploy.kernel) from base image CentOS7 then install MOFED and ironic ptthon agent
 
 
 
 - create_baremetal_image.sh
 
-The script will build baremetal image (.qcow2) from base image CentOS7 then install MOFED
+The script will build baremetal image (baremetal-image.qcow2) from base image CentOS7 then install MOFED
 
 # References
 * https://github.com/stackhpc/stackhpc-image-elements
